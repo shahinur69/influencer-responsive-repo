@@ -79,7 +79,21 @@ nav i{
     background-size: cover;
     height: auto;
 }
-
+/* header   */
+main{
+    padding: 100px 0px;
+}
+.image-box{
+   background-color: #f8dbdb;
+   padding: 20px 0px;
+   max-width: 1200px;
+   margin: 0px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   border-radius: 10px;
+}
 
 
 
