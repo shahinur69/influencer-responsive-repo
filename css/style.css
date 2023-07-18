@@ -201,8 +201,34 @@ main{
     padding: 0px 0px 0px 10px;
     font-size: 18px;
 }
-
-
+/*  feature  */
+footer{
+    background-color: #0A0826;
+    padding: 100px 0px;
+}
+.footer-content{
+    max-width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+.footer-content h4{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sub-para{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-content i{
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 
 
 /*  small   */
