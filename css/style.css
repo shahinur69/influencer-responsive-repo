@@ -150,6 +150,57 @@ main{
 .card img{
     width: 100%;
 }
+.see-more{
+    text-align: end;
+    padding-right: 150px;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.see-more i{
+    margin-left: 10px;
+}
+/* container card  */
+.feature-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.feature-content{
+    max-width: 750px;
+    margin-top: 30px;
+}
+.feature-content h3{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.feature-content p{
+    max-width: 600px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.feature-img{
+    padding-left: 100px;
+}
+
+.btn2-primary{
+    font-size: 16px;
+    background: #E02C6D;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.btn2-primary i{
+    color: white;
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+}
 
 
 
@@ -159,7 +210,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .banner, .vertical, .image-box, .card-container{
+    nav, .banner, .vertical, .image-box, .card-container, .feature-container{
         flex-direction: column;
     }
     .back img{
@@ -174,6 +225,12 @@ main{
     .image-box{
         padding: 10px;
     }
+    .feature-img{
+        margin-right: 50px;
+    }
+    .feature-content{
+        padding: 20px
+    }
     
 }
 
@@ -184,7 +241,7 @@ main{
     header{
         padding: 30px;
     }
-    nav, .banner, .vertical, .image-box, .card-container{
+    nav, .banner, .vertical, .image-box, .card-container, .feature-container{
         flex-direction: column;
     }
     .content{
@@ -196,7 +253,9 @@ main{
     .vertical{
         gap: 20px;
     }
-    
+    .feature-content{
+        margin: 20px;
+    }
     .image-box{
         padding: 0px 30px;
     }
